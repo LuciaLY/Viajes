@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+    <link rel="stylesheet" href="CSS/Style_Index.css">
+    <!-- Fuentes:  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+
+    <!--Va a llevar el nombre de la pagina, numero de consulta, Iniciar Sesion (Va a estar enlazado con el formulario)-->
+    
+    <header>
+        <a class="destinos" href="Index.html">
+            <h1 id="Destinos">
+                Class
+            </h1>
+        </a> 
+        <button id="boton_iniciar_sesion">
+            <a class="logo" href="HTML/form_usuario/iniciar_sesion.html"><!-- Hay que agregar la direccion del formulario de inicio de sesión y cambiarlo por el # -->
+                <img class="icono" src="Fuentes/ICONS/iniciar sesión.svg" alt="Logo de inicio de sesión"> <!--HAY QUE USAR EL OVERFLOW PARA DAR UN ESTILO CIRCULAR AL ICONO-->
+                Iniciar Sesión
+            </a>
+        </button>
+    </header>
+
+
+    <nav>
+        <section id="barra_de_navegacion">
+
+            <article>
+                <a  href="HTML/vuelos.html"> 
+                    <img class="icono" src="Fuentes/ICONS/vuelos.svg" alt="Logo de vuelos">
+                    Vuelos 
+                </a>
+            </article>
+
+            <article>
+                <a href="HTML/alojamiento.html"><!--Hay que poner el link de la pagina de alojamiento-->
+                    <img class="icono" src="Fuentes/ICONS/alojamiento.svg" alt="Logo de Alojamiento">
+                    Alojamiento
+                </a>
+            </article>
+
+            <article>
+                <a href="/HTML/actividades.html" target="_self"><!--Hay que poner el link de la pagina de actividades-->
+                    <img class="icono" src="Fuentes/ICONS/ticket.svg" alt="Logo de Actividaes">
+                    Actividades
+                </a>
+            </article>
+
+            <article>
+                <a href="HTML/autos.html"><!--Hay que poner el link de la pagina de autos-->
+                    <img class="icono" src="Fuentes/ICONS/auto.svg" alt="Logo de Autos">
+                    Autos
+                </a>
+            </article>
+
+            <article>
+                <a href="HTML/nosotros.html"><!--Hay que poner el link de la pagina de nosotros-->
+                    <img class="icono" src="Fuentes/ICONS/nosotros.svg" alt="Logo de nosotros">
+                    Nosotros
+                </a>
+            </article>
+
+        </section>
+                
+    </nav>
+
+    <main>
+        
+        <!-- SECCION DE VUELOS -->
+
+        <section id="contenedor_de_tarjetas">
+
+            <section id="caja_de_tarjetas">
+
+                <h2>
+                    Vuelos
+                </h2>
+                <section >
+
+                    <article class="caja_de_tarjeta ">
+                        <h3>
+                            Vuelo disponible a las Cataratas del iguazú:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de paisajes de argentina/Cataratas del iguazú.jpg" alt="Cataratas del Iguazú">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Vuelo disponible a Bariloche:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de paisajes de argentina/Bariloche.jpg" alt="Bariloche">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Vuelo disponible al Cerro de los Siete Colores:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de paisajes de argentina/Cerro de los Siete Colores.jpg" alt="Cerro de los siete colores">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+
+                        <h3>
+                            Vuelo disponible al Glaciar Perito Moreno:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de paisajes de argentina/Glaciar Perito Moreno.jpg" alt="Glaciar Perito Moreno">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Vuelo disponible a Mendoza:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de paisajes de argentina/Bariloche.jpg" alt="Mendoza">
+                    </article>
+
+
+                        <button id="boton_ver_más" type="button">
+                            <a href="./HTML/vuelos.html">Ver Más</a>
+                        </button> 
+
+                </section>
+    
+            </section>   
+
+        </section>
+
+         <!-- SECCION DE ALOJAMIENTO -->
+
+         <section id="contenedor_de_tarjetas">
+
+            <section id="caja_de_tarjetas">
+
+                <h2>
+                    Alojamiento
+                </h2>
+                <section >
+
+                    <article class="caja_de_tarjeta ">
+                        <h3>
+                            Alojamiento disponible en las Cataratas del Iguazú:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de alojamiento/Alojamiento-1.jpg" alt="Alojamiento en las Cataratas del iguazú">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Alojamiento disponible en Bariloche:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de alojamiento/Alojamiento-2.jpg" alt="Alojamiento en Bariloche">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Alojamiento disponible en el Cerro de los Siete Colores:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de alojamiento/Alojamiento-3.jpg" alt="Alojamiento en el cerro de los siete colores">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+
+                        <h3>
+                            Alojamiento disponible en el Glaciar Perito Moreno:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de alojamiento/Alojamiento-4.jpg" alt="Alojamiento en el glaciar perito moreno">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Alojamiento disponible en Mendoza:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de alojamiento/Alojamiento-5.jpg" alt="Alojamiento en Mendoza">
+                    </article>
+
+                    <button id="boton_ver_más" type="button">
+                        <a href="./HTML/alojamiento.html">Ver Más</a>
+                    </button> 
+    
+                </section>
+    
+            </section>   
+
+        </section>
+
+        <!-- SECCION DE ACTIVIDADES -->
+
+        <section id="contenedor_de_tarjetas">
+
+            <section id="caja_de_tarjetas">
+
+                <h2>
+                    Actividades
+                </h2>
+                <section >
+
+                    <article class="caja_de_tarjeta ">
+                        <h3>
+                            Paseo en bote en las Cataratas del Iguazú:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de actividades/Paseo en bote.jpg" alt="Paseo en bote ">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Esquí y Snowboard en Bariloche:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de actividades/Snowboard.jpg" alt="Snowboard ">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Senderismo en el Cerro de los Siete Colores:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de actividades/Senderismo.jpg" alt="Senderismo ">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Observacion al Glaciar Perito Moreno:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de actividades/Observacion del glaciar.jpg" alt="Observacion al glaciar">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Visitas a distintas bodegas en Mendoza:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de actividades/Visitas a bodegas.jpg" alt="Visitas a bodegas">
+                    </article>
+
+                    <!-- <section class="contenedor_boton_ver_más"> -->
+                        <button id="boton_ver_más" type="button">
+                            <a href="./HTML/actividades.html">Ver Más</a>
+                        </button> 
+    
+                    <!-- </section> -->
+
+                </section>
+    
+            </section>   
+
+        </section>
+
+
+        <!-- SECCION DE AUTOS DE ALQUILER -->
+
+        <section id="contenedor_de_tarjetas">
+
+            <section id="caja_de_tarjetas">
+
+                <h2>
+                    Autos
+                </h2>
+                <section >
+
+                    <article class="caja_de_tarjeta ">
+                        <h3>
+                            Ford Focus disponible para su alquiler:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de autos para alquiler/Ford focus.jpg" alt="Ford Focus">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Honda Civic disponible para su alquiler:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de autos para alquiler/Honda Civic.jpg" alt="Auto Honda Civic">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            Tesla modelo 3 disponible para su alquiler:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de autos para alquiler/Tesla moldelo 3.jpg" alt="Auto Tesla modelo 3">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+
+                        <h3>
+                            Toyota supra disponible para su alquiler:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de autos para alquiler/Toyota Supra.jpg" alt="Auto Toyota Supra">
+                    </article>
+
+                    <article class="caja_de_tarjeta">
+                        <h3>
+                            volkswagen Golf disponible para su alquiler:
+                        </h3>
+                        <img src="Fuentes/IMG/Fotos de autos para alquiler/volkswagen golf.jpg" alt="Auto volkswagen Golf">
+                    </article>
+
+                    <button id="boton_ver_más" type="button">
+                            <a href="./HTML/autos.html">Ver Más</a>
+                    </button> 
+                  
+                </section>
+    
+            </section>   
+
+        </section>  
+        <section class="caja_api">
+            
+
+            <section class="info_usuario">
+                <p>Nuestros profesores</p>
+                <img id="foto" src="" alt="Foto de usuario">
+                <p>Nombre: <span id="nombre"></span></p>
+                <p>Apellido: <span id="apellido"></span> </p>
+            </section>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <section id="container-footer">
+    
+            <section class="footer-links">
+                <section>
+                    <ul>
+                        <form action="" method="get">
+                            <h4>Para mas informacion:</h4>
+                            <section>
+    
+                                <img class="icono-footer" src="Fuentes/ICONS/email-1-svgrepo-com.svg" alt="Icono de email">
+    
+                                <label>
+                                    <input type="text" placeholder="Ingrese su Email:" name="origen" required>
+                                </label>
+    
+                                <label>
+                                    <input class="boton_footer" type="submit" name="button" value="Enviar"></input>
+                                </label>
+    
+    
+    
+                            </section>
+                        </form>
+    
+                    </ul>
+                </section>
+            </section>
+    
+            <section class="footer-links">
+                <h3>Redes sociales:</h3>
+                <ul>
+                    <li>
+                        <a href="https://es-la.facebook.com/">
+                            <img class="icono-footer" src="Fuentes/ICONS/facebook.svg" alt="Logo de Facebook">
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <img class="icono-footer" src="Fuentes/ICONS/instagram.svg" alt="Logo de Instagram">
+                            Instagram
+    
+                        </a>
+                    </li>
+                </ul>
+                <h3>Desarrolladores:</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jorge-sebastian-pryjmak/">
+                            <img class="icono-footer" src="Fuentes/ICONS/linkedin.svg" alt="Logo de Linkedin">
+                            Jorge Sebastian pryjmak
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lucia-lopez-yanguas/">
+                            <img class="icono-footer" src="Fuentes/ICONS/linkedin.svg" alt="Logo de Linkedin">
+                            Lucia Lopez Yanguas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/dylanortizcasco/">
+                            <img class="icono-footer" src="Fuentes/ICONS/linkedin.svg" alt="Logo de Linkedin">
+                            Dylan Alejandro Ortiz
+                        </a>
+                    </li>
+    
+                </ul>
+    
+    
+            </section>
+        </section>
+    </footer>
+    
+
+    <script src="JAVASCRIPT/API.js" ></script>
+
+</body>
+</html>
